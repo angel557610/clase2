@@ -1,0 +1,17 @@
+#Definir variables y otros
+print("Ejercicios 01")
+montoP=0
+#Datos de entrada
+b=int(input("Cantidad de carros estacionados:"))
+d=int(input("cantidad de horas"))
+#Proceso
+if d<=2:
+montoP=d*5*b
+if d<=5:
+montoP=d*4*b
+if d<=10:
+montoP=d*3*b
+if d>=10:
+montoP=d*2*b
+#Datos de salida
+print("El monto a pagar es:", montoP)
